@@ -1,7 +1,5 @@
 # Blog
 
-Blog application built with MERN stack and Next.js.
-
 ![](assets/preview.png)
 
 ## Built with
