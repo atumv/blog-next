@@ -14,7 +14,7 @@
 ## Installation
 
 ```sh
-git clone https://github.com/atumv/blog.git && cd blog/server && npm i && cd ../client && npm i
+git clone https://github.com/atumv/blog-next.git && cd blog-next/server && npm i && cd ../client && npm i
 ```
 
 ## Running
