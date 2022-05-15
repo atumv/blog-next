@@ -1,0 +1,57 @@
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contentInput {
+  resize: none;
+}
+
+.titleInput,
+.subtitleInput,
+.select,
+.contentInput {
+  border: 1px solid #222;
+}
+
+.titleInput,
+.subtitleInput,
+.select {
+  border-bottom-width: 0px;
+  padding: 10px 8px;
+}
+
+.contentInput {
+  padding: 10px 8px;
+  height: 300px;
+  resize: none;
+  margin-bottom: 5px;
+}
+
+.buttonsContainer {
+  margin-top: 5px;
+}
+
+.cancelBtn,
+.updateBtn {
+  border: 1px solid #222;
+  background-color: #fff;
+  color: #222;
+  padding: 5px 20px;
+}
+
+.errorMsg {
+  font-size: 11px;
+  color: red;
+  margin: 2px 0;
+}
+
+.errorMsg:last-of-type {
+  margin-bottom: 7px;
+}

@@ -1,0 +1,81 @@
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.wrapper {
+  text-align: center;
+}
+
+.controls {
+  text-align: right;
+}
+
+.title,
+.subtitle,
+.time,
+.tag,
+.content {
+  color: #222;
+}
+
+.title {
+  font-size: 50px;
+  margin-top: 20px;
+}
+
+.subtitle {
+  font-size: 20px;
+}
+
+.time {
+  font-size: 13px;
+}
+
+.tag {
+  border: 1px solid #222;
+  border-radius: 5px;
+  padding: 5px 8px;
+  cursor: default;
+  display: inline-block;
+  margin: 20px 0;
+  font-size: 12px;
+}
+
+.imageContainer {
+  max-width: 520px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.content {
+  text-align: left;
+  font-size: 20px;
+  white-space: pre-wrap;
+  padding-bottom: 100px;
+}
+
+.editBtn,
+.deleteBtn {
+  display: inline-block;
+  background: #fff;
+  border: 1px solid #222;
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: #222;
+  cursor: pointer;
+}
+
+.deleteBtn {
+  margin-left: 5px;
+  border: 1px solid #fb5050;
+  background: #fb5050;
+  color: #fff;
+}

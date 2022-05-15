@@ -1,0 +1,48 @@
+.post {
+  max-width: 700px;
+  padding: 40px 0;
+  width: 100%;
+}
+
+.image {
+  height: 230px;
+  width: 100%;
+}
+
+.time,
+.title,
+.subtitle,
+.content,
+.tag {
+  color: #222;
+}
+
+.time {
+  margin-top: 10px;
+}
+
+.linkContainer {
+  display: block;
+}
+
+.title {
+  font-size: 30px;
+}
+
+.subtitle {
+  font-size: 18px;
+}
+
+.content {
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+.tag {
+  display: inline-block;
+  border: 1px solid #222;
+  border-radius: 5px;
+  padding: 5px 8px;
+  cursor: default;
+  font-size: 12px;
+}
