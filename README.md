@@ -21,7 +21,7 @@ git clone https://github.com/atumv/blog-next.git && cd blog-next/server && npm i
 
 ```sh
 # in one terminal window
-cd blog/server && npm start
+cd blog-next/server && npm run start
 # in another terminal window
-cd blog/client && npm run dev
+cd blog-next/client && npm run dev
 ```
